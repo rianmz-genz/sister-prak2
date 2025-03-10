@@ -1,0 +1,37 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "File Handling";
+}
+
+<h2>File Handling in Razor Pages</h2>
+
+<form method="post" enctype="multipart/form-data">
+    <div>
+        <label>Masukkan Path Untuk Menyimpan File:</label>
+        <input type="text" asp-for="FilePath" class="form-control" />
+    </div>
+    <div>
+        <button type="submit" asp-page-handler="Create" class="btn btn-primary">Create</button>
+        <span class="text-danger">@Model.Message</span>
+    </div>
+</form>
+
+<hr>
+
+<form method="post" enctype="multipart/form-data">
+    <div>
+        <label>Unggah File:</label>
+        <input type="file" asp-for="UploadedFile" class="form-control" />
+    </div>
+    <div>
+        <button type="submit" asp-page-handler="Read" class="btn btn-success">Read</button>
+    </div>
+</form>
+
+<hr>
+
+<div>
+    <label>Isi Pesan:</label>
+    <textarea asp-for="FileContents" class="form-control" rows="5" readonly></textarea>
+</div>

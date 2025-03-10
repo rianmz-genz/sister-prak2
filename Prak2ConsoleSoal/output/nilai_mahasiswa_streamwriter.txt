@@ -1,0 +1,4 @@
+NIM, Nama, Mata Kuliah, Nilai
+220001, Andi, Algoritma, 85
+220002, Budi, Struktur Data, 90
+220003, Citra, Basis Data, 88

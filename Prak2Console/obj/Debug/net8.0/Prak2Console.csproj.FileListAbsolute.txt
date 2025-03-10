@@ -1,0 +1,14 @@
+/home/rianmz/Documents/kuliah/sem6/sister/praktikum/prak2/Prak2Console/bin/Debug/net8.0/Prak2Console
+/home/rianmz/Documents/kuliah/sem6/sister/praktikum/prak2/Prak2Console/bin/Debug/net8.0/Prak2Console.deps.json
+/home/rianmz/Documents/kuliah/sem6/sister/praktikum/prak2/Prak2Console/bin/Debug/net8.0/Prak2Console.runtimeconfig.json
+/home/rianmz/Documents/kuliah/sem6/sister/praktikum/prak2/Prak2Console/bin/Debug/net8.0/Prak2Console.dll
+/home/rianmz/Documents/kuliah/sem6/sister/praktikum/prak2/Prak2Console/bin/Debug/net8.0/Prak2Console.pdb
+/home/rianmz/Documents/kuliah/sem6/sister/praktikum/prak2/Prak2Console/obj/Debug/net8.0/Prak2Console.GeneratedMSBuildEditorConfig.editorconfig
+/home/rianmz/Documents/kuliah/sem6/sister/praktikum/prak2/Prak2Console/obj/Debug/net8.0/Prak2Console.AssemblyInfoInputs.cache
+/home/rianmz/Documents/kuliah/sem6/sister/praktikum/prak2/Prak2Console/obj/Debug/net8.0/Prak2Console.AssemblyInfo.cs
+/home/rianmz/Documents/kuliah/sem6/sister/praktikum/prak2/Prak2Console/obj/Debug/net8.0/Prak2Console.csproj.CoreCompileInputs.cache
+/home/rianmz/Documents/kuliah/sem6/sister/praktikum/prak2/Prak2Console/obj/Debug/net8.0/Prak2Console.dll
+/home/rianmz/Documents/kuliah/sem6/sister/praktikum/prak2/Prak2Console/obj/Debug/net8.0/refint/Prak2Console.dll
+/home/rianmz/Documents/kuliah/sem6/sister/praktikum/prak2/Prak2Console/obj/Debug/net8.0/Prak2Console.pdb
+/home/rianmz/Documents/kuliah/sem6/sister/praktikum/prak2/Prak2Console/obj/Debug/net8.0/Prak2Console.genruntimeconfig.cache
+/home/rianmz/Documents/kuliah/sem6/sister/praktikum/prak2/Prak2Console/obj/Debug/net8.0/ref/Prak2Console.dll

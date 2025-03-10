@@ -1,0 +1,41 @@
+@page
+@model TugasCModel
+@{
+    ViewData["Title"] = "Upload & Simpan Nilai Mahasiswa";
+}
+
+<h2>Upload & Simpan Nilai Mahasiswa</h2>
+
+<!-- Form untuk upload file -->
+<form method="post" enctype="multipart/form-data">
+    <div>
+        <label>Unggah File Nilai Mahasiswa:</label>
+        <input type="file" asp-for="UploadedFile" class="form-control" />
+    </div>
+    <div>
+        <button type="submit" asp-page-handler="Upload" class="btn btn-success mt-2">Baca File</button>
+    </div>
+</form>
+
+<hr>
+
+<!-- Menampilkan isi file yang diunggah -->
+<div>
+    <label>Isi File:</label>
+    <textarea asp-for="FileContents" class="form-control" rows="5" readonly></textarea>
+</div>
+
+<hr>
+
+<!-- Form untuk menyimpan data -->
+<form method="post">
+    <div>
+        <label>Masukkan Path Untuk Menyimpan File:</label>
+        <input type="text" asp-for="FilePath" class="form-control" placeholder="contoh: C:\Users\Nama\Documents\nilai_mahasiswa.txt" />
+    </div>
+    <div>
+        <button type="submit" asp-page-handler="Create" class="btn btn-primary mt-2">Simpan Data</button>
+    </div>
+</form>
+
+<span class="text-success">@Model.Message</span>
